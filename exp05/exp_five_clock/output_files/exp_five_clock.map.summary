@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Oct 11 23:51:49 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : exp_five_clock
+Top-level Entity Name : exp_five_clock
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 139
+Total pins : 55
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

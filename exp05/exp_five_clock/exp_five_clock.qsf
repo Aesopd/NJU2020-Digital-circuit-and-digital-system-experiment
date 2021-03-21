@@ -1,0 +1,111 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 16:57:40  October 11, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		exp_five_clock_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY exp_five_clock
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:57:40  OCTOBER 11, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE exp_five_clock.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_W17 -to seg0s[0]
+set_location_assignment PIN_V18 -to seg0s[1]
+set_location_assignment PIN_AG17 -to seg0s[2]
+set_location_assignment PIN_AG16 -to seg0s[3]
+set_location_assignment PIN_AH17 -to seg0s[4]
+set_location_assignment PIN_AG18 -to seg0s[5]
+set_location_assignment PIN_AH18 -to seg0s[6]
+set_location_assignment PIN_AF16 -to seg1s[0]
+set_location_assignment PIN_V16 -to seg1s[1]
+set_location_assignment PIN_AE16 -to seg1s[2]
+set_location_assignment PIN_AD17 -to seg1s[3]
+set_location_assignment PIN_AE18 -to seg1s[4]
+set_location_assignment PIN_AE17 -to seg1s[5]
+set_location_assignment PIN_V17 -to seg1s[6]
+set_location_assignment PIN_AA21 -to seg0m[0]
+set_location_assignment PIN_AB17 -to seg0m[1]
+set_location_assignment PIN_AA18 -to seg0m[2]
+set_location_assignment PIN_Y17 -to seg0m[3]
+set_location_assignment PIN_Y18 -to seg0m[4]
+set_location_assignment PIN_AF18 -to seg0m[5]
+set_location_assignment PIN_W16 -to seg0m[6]
+set_location_assignment PIN_Y19 -to seg1m[0]
+set_location_assignment PIN_W19 -to seg1m[1]
+set_location_assignment PIN_AD19 -to seg1m[2]
+set_location_assignment PIN_AA20 -to seg1m[3]
+set_location_assignment PIN_AC20 -to seg1m[4]
+set_location_assignment PIN_AA19 -to seg1m[5]
+set_location_assignment PIN_AD20 -to seg1m[6]
+set_location_assignment PIN_AA30 -to stop
+set_location_assignment PIN_AD21 -to seg0h[0]
+set_location_assignment PIN_AG22 -to seg0h[1]
+set_location_assignment PIN_AE22 -to seg0h[2]
+set_location_assignment PIN_AE23 -to seg0h[3]
+set_location_assignment PIN_AG23 -to seg0h[4]
+set_location_assignment PIN_AF23 -to seg0h[5]
+set_location_assignment PIN_AH22 -to seg0h[6]
+set_location_assignment PIN_AF21 -to seg1h[0]
+set_location_assignment PIN_AG21 -to seg1h[1]
+set_location_assignment PIN_AF20 -to seg1h[2]
+set_location_assignment PIN_AG20 -to seg1h[3]
+set_location_assignment PIN_AE19 -to seg1h[4]
+set_location_assignment PIN_AF19 -to seg1h[5]
+set_location_assignment PIN_AB21 -to seg1h[6]
+set_location_assignment PIN_AA15 -to keyh_n
+set_location_assignment PIN_AA14 -to keym_n
+set_location_assignment PIN_AK4 -to keys_n
+set_location_assignment PIN_AB30 -to adjs
+set_location_assignment PIN_Y27 -to adjm
+set_location_assignment PIN_AB28 -to adjh
+set_location_assignment PIN_AC29 -to stopwatch
+set_location_assignment PIN_AD30 -to clearstopwatch
+set_location_assignment PIN_AA24 -to alarmlight
+set_location_assignment PIN_V25 -to alarm_on
+set_location_assignment PIN_AC28 -to set_alarm
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
