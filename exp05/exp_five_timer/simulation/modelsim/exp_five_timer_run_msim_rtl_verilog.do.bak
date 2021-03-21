@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/ShuDian_Buildings/exp_five_timer {D:/ShuDian_Buildings/exp_five_timer/exp_five_timer.v}
+

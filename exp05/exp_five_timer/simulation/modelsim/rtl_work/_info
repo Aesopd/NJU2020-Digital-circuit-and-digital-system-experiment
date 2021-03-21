@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ShuDian_Buildings/exp_five_timer/simulation/modelsim
+vexp_five_timer
+Z1 !s110 1602482270
+!i10b 1
+!s100 ^k1lD@<dXeeEMkiPAhS851
+Io=K7G<kk0mldNf=8THaJ10
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1601275634
+8D:/ShuDian_Buildings/exp_five_timer/exp_five_timer.v
+FD:/ShuDian_Buildings/exp_five_timer/exp_five_timer.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1602482270.000000
+!s107 D:/ShuDian_Buildings/exp_five_timer/exp_five_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_five_timer|D:/ShuDian_Buildings/exp_five_timer/exp_five_timer.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/ShuDian_Buildings/exp_five_timer
+Z6 tCvgOpt 0
+vexp_five_timer_vlg_tst
+R1
+!i10b 1
+!s100 D<ECUa?BmbJgz@Sam;d^Z2
+I::NHR]UUUF]m1h8^kE3TY3
+R2
+R0
+w1601223085
+8D:/ShuDian_Buildings/exp_five_timer/simulation/modelsim/exp_five_timer.vt
+FD:/ShuDian_Buildings/exp_five_timer/simulation/modelsim/exp_five_timer.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ShuDian_Buildings/exp_five_timer/simulation/modelsim/exp_five_timer.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_five_timer/simulation/modelsim|D:/ShuDian_Buildings/exp_five_timer/simulation/modelsim/exp_five_timer.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/ShuDian_Buildings/exp_five_timer/simulation/modelsim
+R6
