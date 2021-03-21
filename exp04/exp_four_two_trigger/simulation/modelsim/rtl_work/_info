@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim
+vexp_four_two_trigger
+Z1 !s110 1601137745
+!i10b 1
+!s100 ?;oZ6ELbKc?Z;GF41lMF83
+IChii^<GLIBYMIKV?57Z:23
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1601136571
+8D:/ShuDian_Buildings/exp_four_two_trigger/exp_four_two_trigger.v
+FD:/ShuDian_Buildings/exp_four_two_trigger/exp_four_two_trigger.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1601137745.000000
+!s107 D:/ShuDian_Buildings/exp_four_two_trigger/exp_four_two_trigger.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_four_two_trigger|D:/ShuDian_Buildings/exp_four_two_trigger/exp_four_two_trigger.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/ShuDian_Buildings/exp_four_two_trigger
+Z7 tCvgOpt 0
+vexp_four_two_trigger_vlg_tst
+Z8 !s110 1601137746
+!i10b 1
+!s100 3;z<<5M7:nkPBTjK_^PL43
+IY:3b7D[;`]dYdSFZDfI@a2
+R2
+R0
+w1601132096
+8D:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim/exp_four_two_trigger.vt
+FD:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim/exp_four_two_trigger.vt
+L0 28
+R3
+r1
+!s85 0
+31
+Z9 !s108 1601137746.000000
+!s107 D:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim/exp_four_two_trigger.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim|D:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim/exp_four_two_trigger.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/ShuDian_Buildings/exp_four_two_trigger/simulation/modelsim
+R7
+vmyasynchro
+R8
+!i10b 1
+!s100 8M4ko`_eib37fzNA2OW:N1
+ITP62]j9YlB_;Z>?I9Z[bX3
+R2
+R0
+w1601133634
+8D:/ShuDian_Buildings/exp_four_two_trigger/myasychro.v
+FD:/ShuDian_Buildings/exp_four_two_trigger/myasychro.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ShuDian_Buildings/exp_four_two_trigger/myasychro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_four_two_trigger|D:/ShuDian_Buildings/exp_four_two_trigger/myasychro.v|
+!i113 1
+R5
+R6
+R7
+vmysynchro
+R1
+!i10b 1
+!s100 ihAEG<b4cnhNk;C_1ea933
+IISe29i<QIe@D@MX@a1bh;1
+R2
+R0
+w1601133697
+8D:/ShuDian_Buildings/exp_four_two_trigger/mysynchro.v
+FD:/ShuDian_Buildings/exp_four_two_trigger/mysynchro.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/ShuDian_Buildings/exp_four_two_trigger/mysynchro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ShuDian_Buildings/exp_four_two_trigger|D:/ShuDian_Buildings/exp_four_two_trigger/mysynchro.v|
+!i113 1
+R5
+R6
+R7
