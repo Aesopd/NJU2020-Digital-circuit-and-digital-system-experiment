@@ -1,0 +1,229 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "alarmlight",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0h[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1h[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1m[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0m[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1s[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg0s[6]",
+					"strict" : false
+				},
+				{
+					"name" : "set_alarm",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				},
+				{
+					"name" : "stopwatch",
+					"strict" : false
+				},
+				{
+					"name" : "adjh",
+					"strict" : false
+				},
+				{
+					"name" : "adjm",
+					"strict" : false
+				},
+				{
+					"name" : "adjs",
+					"strict" : false
+				},
+				{
+					"name" : "alarm_on",
+					"strict" : false
+				},
+				{
+					"name" : "keym_n",
+					"strict" : false
+				},
+				{
+					"name" : "keys_n",
+					"strict" : false
+				},
+				{
+					"name" : "keyh_n",
+					"strict" : false
+				},
+				{
+					"name" : "clearstopwatch",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
