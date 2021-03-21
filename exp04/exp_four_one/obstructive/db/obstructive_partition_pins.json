@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_lock1",
+					"strict" : false
+				},
+				{
+					"name" : "out_lock2",
+					"strict" : false
+				},
+				{
+					"name" : "in_data",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "in_en",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
