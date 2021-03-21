@@ -1,0 +1,27 @@
+-- begin_signature
+-- I2C_Audio_Config
+-- end_signature
+WIDTH=7;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	XXXXXXX;
+	14 :	XXXXXXX;
+	13 :	XXXXXXX;
+	12 :	XXXXXXX;
+	11 :	XXXXXXX;
+	10 :	XXXXXXX;
+	9 :	XXXXXXX;
+	8 :	0000101;
+	7 :	0000100;
+	6 :	0001001;
+	5 :	0000111;
+	4 :	0000011;
+	3 :	0000010;
+	2 :	0001000;
+	1 :	0000110;
+	0 :	0001111;
+END;

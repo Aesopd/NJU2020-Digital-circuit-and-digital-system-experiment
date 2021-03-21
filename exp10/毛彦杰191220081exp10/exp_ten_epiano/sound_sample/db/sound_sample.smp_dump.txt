@@ -1,0 +1,7 @@
+
+State Machine - |sound_sample|I2C_Audio_Config:myconfig|mi2c_state
+Name mi2c_state.11 mi2c_state.10 mi2c_state.01 mi2c_state.00 
+mi2c_state.00 0 0 0 0 
+mi2c_state.01 0 0 1 1 
+mi2c_state.10 0 1 0 1 
+mi2c_state.11 1 0 0 1 
