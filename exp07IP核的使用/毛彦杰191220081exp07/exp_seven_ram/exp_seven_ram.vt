@@ -1,0 +1,128 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "10/18/2020 23:52:10"
+                                                                                
+// Verilog Test Bench template for design : exp_seven_ram
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module exp_seven_ram_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clk;
+reg [7:0] din;
+reg [3:0] inaddr;
+reg [3:0] outaddr;
+reg we;
+// wires                                               
+wire [7:0]  dout1;
+wire [7:0]  dout2;
+
+// assign statements (if any)                          
+exp_seven_ram i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.din(din),
+	.dout1(dout1),
+	.dout2(dout2),
+	.inaddr(inaddr),
+	.outaddr(outaddr),
+	.we(we)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin     
+//读数据验证存储器初始化                     
+  we=0;clk=0;din=8'b00000000;
+	inaddr=4'b0000;outaddr=4'b0000;#5;
+	inaddr=4'b0001;outaddr=4'b0001;#5;
+	inaddr=4'b0010;outaddr=4'b0010;#5;
+	inaddr=4'b0011;outaddr=4'b0011;#5;
+	inaddr=4'b0100;outaddr=4'b0100;#5;
+	inaddr=4'b0101;outaddr=4'b0101;#5;
+	inaddr=4'b0110;outaddr=4'b0110;#5;
+	inaddr=4'b0111;outaddr=4'b0111;#5;
+	inaddr=4'b1000;outaddr=4'b1000;#5;
+	inaddr=4'b1001;outaddr=4'b1001;#5;
+	inaddr=4'b1010;outaddr=4'b1010;#5;
+	inaddr=4'b1011;outaddr=4'b1011;#5;
+	inaddr=4'b1100;outaddr=4'b1100;#5;
+	inaddr=4'b1101;outaddr=4'b1101;#5;
+	inaddr=4'b1110;outaddr=4'b1110;#5;
+	inaddr=4'b1111;outaddr=4'b1111;#5;
+//修改存储器里面的内容
+  we=1;din=8'b11111111;#5;
+	inaddr=4'b0000;outaddr=4'b0000;#5;
+	inaddr=4'b0001;outaddr=4'b0001;#5;
+	inaddr=4'b0010;outaddr=4'b0010;#5;
+	inaddr=4'b0011;outaddr=4'b0011;#5;
+	inaddr=4'b0100;outaddr=4'b0100;#5;
+	inaddr=4'b0101;outaddr=4'b0101;#5;
+	inaddr=4'b0110;outaddr=4'b0110;#5;
+	inaddr=4'b0111;outaddr=4'b0111;#5;
+	inaddr=4'b1000;outaddr=4'b1000;#5;
+	inaddr=4'b1001;outaddr=4'b1001;#5;
+	inaddr=4'b1010;outaddr=4'b1010;#5;
+	inaddr=4'b1011;outaddr=4'b1011;#5;
+	inaddr=4'b1100;outaddr=4'b1100;#5;
+	inaddr=4'b1101;outaddr=4'b1101;#5;
+	inaddr=4'b1110;outaddr=4'b1110;#5;
+	inaddr=4'b1111;outaddr=4'b1111;#5;
+//再读存储器修改后的内容
+  we=0;#5;
+	inaddr=4'b0000;outaddr=4'b0000;#5;
+	inaddr=4'b0001;outaddr=4'b0001;#5;
+	inaddr=4'b0010;outaddr=4'b0010;#5;
+	inaddr=4'b0011;outaddr=4'b0011;#5;
+	inaddr=4'b0100;outaddr=4'b0100;#5;
+	inaddr=4'b0101;outaddr=4'b0101;#5;
+	inaddr=4'b0110;outaddr=4'b0110;#5;
+	inaddr=4'b0111;outaddr=4'b0111;#5;
+	inaddr=4'b1000;outaddr=4'b1000;#5;
+	inaddr=4'b1001;outaddr=4'b1001;#5;
+	inaddr=4'b1010;outaddr=4'b1010;#5;
+	inaddr=4'b1011;outaddr=4'b1011;#5;
+	inaddr=4'b1100;outaddr=4'b1100;#5;
+	inaddr=4'b1101;outaddr=4'b1101;#5;
+	inaddr=4'b1110;outaddr=4'b1110;#5;
+	inaddr=4'b1111;outaddr=4'b1111;#5;
+	
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+//begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+begin
+#4 clk=~clk;
+end                                                   
+//@eachvec;                                              
+// --> end                                             
+//end                                                    
+endmodule
+
